@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btnCategoria.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent vistaCategoria = new Intent(MainActivity.this, VistaCategoria.class);
+                Intent vistaCategoria = new Intent(MainActivity.this, CategoriaActivity.class);
 
                 vistaCategoria.putExtra("nombre", "Juan de los palotes");
                 startActivity(vistaCategoria);
